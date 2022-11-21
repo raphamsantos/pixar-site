@@ -65,20 +65,3 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
-@media(min-width: 200px)  and (max-width: 420px) {
-    header{
-        background-color: #0d0735;
-    }
-    nav{
-        border: red solid 2px;
-        width: 90vw;
-    }
-    main{
-        height: 100vh;
-        flex-wrap: wrap;
-    }
-    .imagemPrincipal{
-        background-size: cover;
-    }
-}
